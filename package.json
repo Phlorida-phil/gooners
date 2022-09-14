@@ -1,0 +1,12 @@
+{
+  "name": "arsenal",
+  "version": "1.0.0",
+  "description": "gooner site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "node-sass -w scss/ -o css/ --recursive"
+  },
+  "author": "Phil",
+  "license": "MIT"
+}
