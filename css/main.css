@@ -29,7 +29,7 @@ ul {
 .comp-logo {
   height: 5rem;
   margin-top: .5rem;
-  filter: drop-shadow(0.3rem 0.4rem 0.2rem rgba(51, 51, 51, 0.9)); }
+  filter: drop-shadow(0.3rem 0.4rem 0.5rem rgba(51, 51, 51, 0.9)); }
 
 .comps-table {
   text-align: center;
@@ -42,6 +42,9 @@ ul {
   background-color: #ccc;
   border-radius: 5px;
   color: #333; }
+
+.opponent-name {
+  margin-left: 1rem; }
 
 .match-section {
   margin-top: .5rem;

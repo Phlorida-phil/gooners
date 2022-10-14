@@ -39,7 +39,7 @@ ul {
 .comp-logo {
   height: 5rem;
   margin-top: .5rem;
-  filter: drop-shadow(.3rem .4rem .2rem rgba(#333, .9));
+  filter: drop-shadow(.3rem .4rem .5rem rgba(#333, .9));
 }
 
 .comps-table {
@@ -56,6 +56,10 @@ ul {
   color: $detailsColor;
 
 
+}
+
+.opponent-name {
+  margin-left: 1rem;
 }
 
 .match-section {
