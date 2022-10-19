@@ -79,3 +79,6 @@ ul {
   .player-info p {
     margin: .5rem;
     width: 7rem; }
+
+.win {
+  color: #0F0; }
