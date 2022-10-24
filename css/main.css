@@ -4,7 +4,8 @@ body {
   background-image: url(../logos/emeriates.jpg);
   background-attachment: fixed;
   background-size: cover;
-  color: #fff; }
+  color: #fff;
+  font-family: "Jura", sans-serif; }
   body:after {
     content: '';
     position: absolute;
@@ -28,7 +29,7 @@ ul {
 
 .comp-logo {
   height: 5rem;
-  margin-top: .5rem;
+  margin-top: 1.5rem;
   filter: drop-shadow(0.3rem 0.4rem 0.5rem rgba(51, 51, 51, 0.9)); }
 
 .comps-table {
@@ -41,7 +42,8 @@ ul {
   padding: 1rem;
   background-color: #ccc;
   border-radius: 5px;
-  color: #333; }
+  color: #333;
+  min-width: 15vw; }
 
 .opponent-name {
   margin-left: 1rem; }
@@ -67,7 +69,12 @@ ul {
     width: 20vw;
     height: 9vw; }
     .match-details div span {
+      margin-top: -1rem;
       display: block; }
+      .match-details div span h4 {
+        margin: .25rem; }
+      .match-details div span span {
+        margin-top: .75rem; }
 
 .lineups {
   display: flex;
@@ -80,5 +87,13 @@ ul {
     margin: .5rem;
     width: 7rem; }
 
-.win {
-  color: #0F0; }
+.W {
+  color: #32a852; }
+
+.D {
+  color: #999;
+  filter: drop-shadow(0.1rem 0.3rem 2rem rgba(238, 238, 238, 0.9)); }
+
+.L {
+  color: #F00;
+  filter: drop-shadow(0.1rem 0.3rem 2rem rgba(245, 105, 117, 0.9)); }

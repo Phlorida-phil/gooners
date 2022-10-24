@@ -1,5 +1,8 @@
+// GLOBAL VALUES
+
 $headingColor: #fff;
 $detailsColor: #333;
+$primaryFont: 'Jura', sans-serif;
 
 body {
   padding: .5rem;
@@ -8,6 +11,7 @@ body {
   background-attachment: fixed;
   background-size: cover;
   color: $headingColor;
+  font-family: $primaryFont;
 
   &:after{
     content:'';
@@ -30,6 +34,7 @@ ul {
   text-align: center;
 }
 
+// MAIN TEAM LOGO
 
 .primary-logo {
   height: 10em;
@@ -38,7 +43,7 @@ ul {
 
 .comp-logo {
   height: 5rem;
-  margin-top: .5rem;
+  margin-top: 1.5rem;
   filter: drop-shadow(.3rem .4rem .5rem rgba(#333, .9));
 }
 
@@ -54,6 +59,7 @@ ul {
   background-color: #ccc;
   border-radius: 5px;
   color: $detailsColor;
+  min-width: 15vw;
 
 
 }
@@ -90,7 +96,16 @@ ul {
     height: 9vw;
 
     span{
+      margin-top: -1rem;
       display: block;
+
+      h4 {
+        margin: .25rem;
+      }
+
+      span{
+        margin-top: .75rem;
+      }
     }
 
   }
@@ -114,7 +129,19 @@ ul {
   }
 }
 
-.win {
-  color: #0F0;
 
+// WIN LOSS DRAW ICONS
+
+.W {
+  color: #32a852;
+}
+
+.D {
+  color: #999;
+  filter: drop-shadow(.1rem .3rem 2rem rgba(#eee, .9));
+}
+
+.L {
+  color: #F00;
+  filter: drop-shadow(.1rem .3rem 2rem rgba(#f56975, .9));
 }
